@@ -1,0 +1,328 @@
+10.08.2017 09:15
+10.08.2017 09:15
+Невозможно подключение к MySQL: localhost
+info:
+error:
+Стек: array (
+  0 => 
+  array (
+    'file' => '/var/www/test.ru/include/common-utf8/class/db.php',
+    'line' => 49,
+    'function' => 'add_sqlerror',
+    'class' => 'DB',
+    'type' => '::',
+  ),
+  1 => 
+  array (
+    'file' => '/var/www/test.ru/include/common-utf8/class/db.php',
+    'line' => 20,
+    'function' => 'Connect',
+    'class' => 'DB',
+    'type' => '::',
+  ),
+  2 => 
+  array (
+    'file' => '/var/www/test.ru/include/common-utf8/func.php',
+    'line' => 25,
+    'args' => 
+    array (
+      0 => '/var/www/test.ru/include/common-utf8/class/db.php',
+    ),
+    'function' => 'include_once',
+  ),
+  3 => 
+  array (
+    'function' => '{closure}',
+  ),
+  4 => 
+  array (
+    'file' => '/var/www/test.ru/include/common-utf8/class/get.php',
+    'line' => 287,
+    'function' => 'spl_autoload_call',
+  ),
+  5 => 
+  array (
+    'file' => '/var/www/test.ru/include/common-utf8/func.php',
+    'line' => 120,
+    'function' => '__callStatic',
+    'class' => 'Get',
+    'type' => '::',
+  ),
+  6 => 
+  array (
+    'file' => '/var/www/test.ru/include/common-utf8/func.php',
+    'line' => 120,
+    'function' => 'DEBUG',
+    'class' => 'Get',
+    'type' => '::',
+  ),
+  7 => 
+  array (
+    'file' => '/var/www/test.ru/include/config.php',
+    'line' => 93,
+    'args' => 
+    array (
+      0 => '/var/www/test.ru/include/common-utf8/func.php',
+    ),
+    'function' => 'include_once',
+  ),
+  8 => 
+  array (
+    'file' => '/var/www/test.ru/index.php',
+    'line' => 2,
+    'args' => 
+    array (
+      0 => '/var/www/test.ru/include/config.php',
+    ),
+    'function' => 'include_once',
+  ),
+)
+
+
+
+url=/
+Стек: array (
+  0 => 
+  array (
+    'file' => '/var/www/test.ru/include/common-utf8/class/db.php',
+    'line' => 107,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => '/var/www/test.ru/include/common-utf8/class/db.php',
+    'line' => 49,
+    'function' => 'add_sqlerror',
+    'class' => 'DB',
+    'type' => '::',
+  ),
+  2 => 
+  array (
+    'file' => '/var/www/test.ru/include/common-utf8/class/db.php',
+    'line' => 20,
+    'function' => 'Connect',
+    'class' => 'DB',
+    'type' => '::',
+  ),
+  3 => 
+  array (
+    'file' => '/var/www/test.ru/include/common-utf8/func.php',
+    'line' => 25,
+    'args' => 
+    array (
+      0 => '/var/www/test.ru/include/common-utf8/class/db.php',
+    ),
+    'function' => 'include_once',
+  ),
+  4 => 
+  array (
+    'function' => '{closure}',
+  ),
+  5 => 
+  array (
+    'file' => '/var/www/test.ru/include/common-utf8/class/get.php',
+    'line' => 287,
+    'function' => 'spl_autoload_call',
+  ),
+  6 => 
+  array (
+    'file' => '/var/www/test.ru/include/common-utf8/func.php',
+    'line' => 120,
+    'function' => '__callStatic',
+    'class' => 'Get',
+    'type' => '::',
+  ),
+  7 => 
+  array (
+    'file' => '/var/www/test.ru/include/common-utf8/func.php',
+    'line' => 120,
+    'function' => 'DEBUG',
+    'class' => 'Get',
+    'type' => '::',
+  ),
+  8 => 
+  array (
+    'file' => '/var/www/test.ru/include/config.php',
+    'line' => 93,
+    'args' => 
+    array (
+      0 => '/var/www/test.ru/include/common-utf8/func.php',
+    ),
+    'function' => 'include_once',
+  ),
+  9 => 
+  array (
+    'file' => '/var/www/test.ru/index.php',
+    'line' => 2,
+    'args' => 
+    array (
+      0 => '/var/www/test.ru/include/config.php',
+    ),
+    'function' => 'include_once',
+  ),
+).<br>
+
+10.08.2017 13:39
+10.08.2017 13:39
+Невозможно подключение к MySQL: localhost
+info:
+error:
+Стек: array (
+  0 => 
+  array (
+    'file' => '/var/www/test.ru/include/common-utf8/class/db.php',
+    'line' => 49,
+    'function' => 'add_sqlerror',
+    'class' => 'DB',
+    'type' => '::',
+  ),
+  1 => 
+  array (
+    'file' => '/var/www/test.ru/include/common-utf8/class/db.php',
+    'line' => 20,
+    'function' => 'Connect',
+    'class' => 'DB',
+    'type' => '::',
+  ),
+  2 => 
+  array (
+    'file' => '/var/www/test.ru/include/common-utf8/func.php',
+    'line' => 25,
+    'args' => 
+    array (
+      0 => '/var/www/test.ru/include/common-utf8/class/db.php',
+    ),
+    'function' => 'include_once',
+  ),
+  3 => 
+  array (
+    'function' => '{closure}',
+  ),
+  4 => 
+  array (
+    'file' => '/var/www/test.ru/include/common-utf8/class/get.php',
+    'line' => 287,
+    'function' => 'spl_autoload_call',
+  ),
+  5 => 
+  array (
+    'file' => '/var/www/test.ru/include/common-utf8/func.php',
+    'line' => 120,
+    'function' => '__callStatic',
+    'class' => 'Get',
+    'type' => '::',
+  ),
+  6 => 
+  array (
+    'file' => '/var/www/test.ru/include/common-utf8/func.php',
+    'line' => 120,
+    'function' => 'DEBUG',
+    'class' => 'Get',
+    'type' => '::',
+  ),
+  7 => 
+  array (
+    'file' => '/var/www/test.ru/include/config.php',
+    'line' => 93,
+    'args' => 
+    array (
+      0 => '/var/www/test.ru/include/common-utf8/func.php',
+    ),
+    'function' => 'include_once',
+  ),
+  8 => 
+  array (
+    'file' => '/var/www/test.ru/primary/journal.php',
+    'line' => 2,
+    'args' => 
+    array (
+      0 => '/var/www/test.ru/include/config.php',
+    ),
+    'function' => 'include_once',
+  ),
+)
+
+
+
+url=/primary/journal.php, referer=http://test.ru/
+Стек: array (
+  0 => 
+  array (
+    'file' => '/var/www/test.ru/include/common-utf8/class/db.php',
+    'line' => 107,
+    'function' => 'AddToLog',
+  ),
+  1 => 
+  array (
+    'file' => '/var/www/test.ru/include/common-utf8/class/db.php',
+    'line' => 49,
+    'function' => 'add_sqlerror',
+    'class' => 'DB',
+    'type' => '::',
+  ),
+  2 => 
+  array (
+    'file' => '/var/www/test.ru/include/common-utf8/class/db.php',
+    'line' => 20,
+    'function' => 'Connect',
+    'class' => 'DB',
+    'type' => '::',
+  ),
+  3 => 
+  array (
+    'file' => '/var/www/test.ru/include/common-utf8/func.php',
+    'line' => 25,
+    'args' => 
+    array (
+      0 => '/var/www/test.ru/include/common-utf8/class/db.php',
+    ),
+    'function' => 'include_once',
+  ),
+  4 => 
+  array (
+    'function' => '{closure}',
+  ),
+  5 => 
+  array (
+    'file' => '/var/www/test.ru/include/common-utf8/class/get.php',
+    'line' => 287,
+    'function' => 'spl_autoload_call',
+  ),
+  6 => 
+  array (
+    'file' => '/var/www/test.ru/include/common-utf8/func.php',
+    'line' => 120,
+    'function' => '__callStatic',
+    'class' => 'Get',
+    'type' => '::',
+  ),
+  7 => 
+  array (
+    'file' => '/var/www/test.ru/include/common-utf8/func.php',
+    'line' => 120,
+    'function' => 'DEBUG',
+    'class' => 'Get',
+    'type' => '::',
+  ),
+  8 => 
+  array (
+    'file' => '/var/www/test.ru/include/config.php',
+    'line' => 93,
+    'args' => 
+    array (
+      0 => '/var/www/test.ru/include/common-utf8/func.php',
+    ),
+    'function' => 'include_once',
+  ),
+  9 => 
+  array (
+    'file' => '/var/www/test.ru/primary/journal.php',
+    'line' => 2,
+    'args' => 
+    array (
+      0 => '/var/www/test.ru/include/config.php',
+    ),
+    'function' => 'include_once',
+  ),
+).<br>
+

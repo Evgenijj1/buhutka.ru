@@ -1,0 +1,46 @@
+
+27:09:52 http://htmlweb.ru/user/api.php?vk&ret_path=http://test.ru/user/api.php?vk
+27:09:52
+https://api.vk.com/method/users.get?uids=126356305&fields=uid%2Cfirst_name%2Clast_name%2Cscreen_name%2Csex%2Cbdate%2Cphoto_big%2Ccontacts&access_token=8d80880463d12052cd513fe79875dcf3b1788beca495713cfc6e51832206570b2fd6bf35d234a2f855b0c
+res='{"response":[{"uid":126356305,"first_name":"Evgeny","last_name":"Drankin","sex":2,"screen_name":"drankinevgenij","bdate":"24.4.1995","photo_big":"https:\\/\\/pp.userapi.com\\/c638220\\/v638220305\\/2ca7\\/e9f86dD5I7M.jpg","home_phone":""}]}'
+27:09:52
+
+user=array (
+  'uid' => 126356305,
+  'first_name' => 'Evgeny',
+  'last_name' => 'Drankin',
+  'sex' => 2,
+  'screen_name' => 'drankinevgenij',
+  'bdate' => '24.4.1995',
+  'photo_big' => 'https://pp.userapi.com/c638220/v638220305/2ca7/e9f86dD5I7M.jpg',
+  'home_phone' => '',
+  'mail' => 'drankinevgenijj@yandex.ru',
+  'vk_uid' => 126356305,
+)
+user1=array (
+  'id' => '5',
+  'name' => 'drankinevgenij',
+  'fullname' => 'Evgeny Drankin',
+  'tel' => NULL,
+  'kart' => NULL,
+  'sms' => '0',
+  'mail' => 'drankinevgenijj@yandex.ru',
+  'rss' => '0',
+  'birthday' => '1995-04-24',
+  'date0' => '2017-07-04',
+  'city' => '0',
+  'address' => '',
+  'adm' => '99',
+  'pass' => 'a8881da7841bc045a854c42cad9321f3',
+  'sex' => '2',
+  'discount0' => NULL,
+  'discount1' => NULL,
+  'comment' => '',
+  'info' => '{"vk_uid":"126356305"}',
+  'time' => '2017-08-10 09:25:11',
+  'ip' => '2130706433',
+  'uid' => '0',
+)
+fields=array (
+)
+SELECT * FROM user WHERE mail='drankinevgenijj@yandex.ru' LIMIT 1

@@ -1,0 +1,51 @@
+<nav class="top-menu">
+    <ul class="menu" id="menu">
+<? $menu = getMenu(); ?>
+<? foreach ( $menu as $it ) { $it['items'] = getMenu($it['id']); ?>
+    <? if (empty($it['items'])) { ?>
+
+    <li <? if ( !empty($it['current'])) { ?> class="current"<? } ?>>
+        <a href="<?=$it['link']?>" name="<?=$it['name']?>"><?=$it['menu_name']?></a>
+    </li>
+
+    <? } else { ?>
+
+    <li class="dropdown">
+        <a data-toggle="dropdown" class="dropdown-toggle <? if ( !empty($it['current']) ) { ?> current<? } ?>" href="<?=$it['link']?>" name="<?=$it['name']?>"><?=$it['menu_name']?> <b class="caret"></b></a>
+        <ul id="leftmenuel<?=$it['id']?>" class="dropdown-menu">
+            <? foreach ($it['items'] as $itt) { $itt['items'] = getMenu($itt['id']); ?>
+            <li>
+                <a href="<?=$itt['link']?>" <? if (!empty($itt['current'])) { /*?> class="current"<?*/ } ?> name="<?=$itt['name']?>"><?=$itt['menu_name']?></a>
+                <? if (!empty($itt['items'])) { ?>
+                <ul>
+                    <? foreach ($itt['items'] as $ittt) { ?>
+                    <li><a href="<?=$ittt['link']?>" <? if (!empty($ittt['current'])) { ?> class="current"<? } ?> name="<?=$ittt['name']?>"><?=$ittt['menu_name']?></a></li>
+                    <? } ?>
+                </ul>
+                <? } ?>
+            </li>
+            <? } ?>
+        </ul>
+    </li>
+    <? } ?>
+<? } ?>
+</ul>
+<ul class="top-user">
+    <? if( User::is_login() ) { ?>
+    <li class="dropdown">
+        <a data-toggle="dropdown" class="<? if ( !empty($it['current']) ) { ?> current<? } ?>" href="/user/" title="<?=User::name().' '.User::id()?>">Профиль <b class="caret"></b></a>
+        <ul id="leftmenuel_user" class="sub-menu">
+            <li><a href="/primary/packing.php">Накладная</a></li>
+            <li><a href="/primary/invoice.php">Счет-фактура</a></li>
+            <li><a href="/primary/act.php">Акт услуг</a></li>
+            <?if(User::is_admin()){?>
+            <li><a href="/adm/sprav.php">Справочники</a></li>
+            <?}?>
+            <li><a href="/?logout">Выход</a></li>
+        </ul>
+    </li>
+    <?}else{?>
+    <li><a href="/user/login.php">Вход</a></li>
+    <?}?>
+</ul>
+</nav>

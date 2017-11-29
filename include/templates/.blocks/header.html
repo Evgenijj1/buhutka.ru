@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title><?=(empty($title)?'Сок чистотела':$title)?></title>
+    <meta charset="utf-8">
+    <meta name="keywords" content="<?=(empty($keywords)?'Сок чистотела':$keywords)?>">
+    <meta name="description" content="<?=(empty($description)?'Сок чистотела':$description)?>">
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, target-densitydpi=medium-dpi" name="viewport">
+    <link rel="stylesheet" href="/css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <link rel="stylesheet" href="/css/slider.css" type="text/css">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Ubuntu:400,400i,500,500i" rel="preload">
+    <?if(cmp(Get::url(),'/user/')){?>
+        <link rel="stylesheet" href="<?=ImgSrc('/user/style.css')?>" type="text/css">
+    <?}?>
+    <script type="text/javascript" src="/js.js?v1" async="async"></script>
+    <link rel="stylesheet" href="/style.css" type="text/css">
+    <? if (User::is_admin()) { ?>
+        <script type="text/javascript" src="/adm/js.js?v1" async="async"></script>
+        <link rel="stylesheet" href="/adm/style.css" type="text/css">
+    <? } ?>
+
+
+    <? if (!empty($data['keywords'])) { ?>
+        <meta name="keywords" content="<?=$data['keywords']?>">
+        <meta name="news_keywords" content="<?=$data['keywords']?>">
+    <? } ?>
+    <? if (!empty($data['description'])) { ?><meta name="description" content="<?=$data['description']?>"><? } ?>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title><?=$data['title']?></title>
+</head>
+<body >
+<div class="wrapper">
+    <header class="header">
+        <div class="container clearfix">
+            <a class="logo" href="/">
+                <img src="/images/logo.jpg" width="172" height="64" alt="Luxe Fitness">
+            </a>
+            <div class="menu-button" id="menu-button" onclick="ShowHide('menu','show');ShowHide('menu-button','close')">
+                <div class="menu-txt">Меню</div>
+                <div class="menu-svg"></div>
+            </div>
+            <?=echoBlock('menu')?>
+        </div>
+    </header>

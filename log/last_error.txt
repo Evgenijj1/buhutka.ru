@@ -1,0 +1,50 @@
+
+
+09.08.2017 13:52
+Произошла ошибка с кодом <b>2</b> Предупреждение!
+Файл: /var/www/test.ru/include/func1.php(148) : eval()'d code, строка 17.
+<br>
+147:         ob_start();
+<br>
+148:         eval(' ?&gt;' . $block . "&lt;? ");
+<br>
+149:         $block = ob_get_contents();  // Получаем содержимое буфера
+
+16: 
+17: 
+18: Запрос: /.<br>
+SQL-Запрос: SELECT * FROM tovar WHERE 1 ORDER BY price.
+Текст ошибки: <i>Division by zero</i>
+Стек: array (
+  0 => 
+  array (
+    'file' => '/var/www/test.ru/include/func1.php(148) : eval()\'d code',
+    'line' => 17,
+    'function' => 'myErrorHandler',
+  ),
+  1 => 
+  array (
+    'file' => '/var/www/test.ru/include/func1.php',
+    'line' => 148,
+    'function' => 'eval',
+  ),
+  2 => 
+  array (
+    'file' => '/var/www/test.ru/include/func1.php',
+    'line' => 117,
+    'function' => 'getBlock',
+  ),
+  3 => 
+  array (
+    'file' => '/var/www/test.ru/index.php(59) : eval()\'d code',
+    'line' => 38,
+    'function' => 'echoBlock',
+  ),
+  4 => 
+  array (
+    'file' => '/var/www/test.ru/index.php',
+    'line' => 59,
+    'function' => 'eval',
+  ),
+)
+

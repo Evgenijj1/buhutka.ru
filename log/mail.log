@@ -1,0 +1,3222 @@
+
+
+27-04-2017 18:29:51 SQL error report
+27.04.2017 18:29<br />
+27.04.2017 18:29<br />
+Запрос:<br />
+SELECT * FROM db_config WHERE `key`="DEBUG" ORDER BY `from` DESC LIMIT 1<br />
+<br />
+info:<br />
+error:Table 'ngx4_thweb.db_config' doesn't exist<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\class\\db.php',<br />
+    'line' => 141,<br />
+    'function' => 'add_sqlerror',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\class\\db.php',<br />
+    'line' => 176,<br />
+    'function' => 'sql',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\class\\get.php',<br />
+    'line' => 279,<br />
+    'function' => 'Select',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\func.php',<br />
+    'line' => 96,<br />
+    'function' => '__callStatic',<br />
+    'class' => 'Get',<br />
+    'type' => '::',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\func.php',<br />
+    'line' => 96,<br />
+    'function' => 'DEBUG',<br />
+    'class' => 'Get',<br />
+    'type' => '::',<br />
+  ),<br />
+  5 => <br />
+  array (<br />
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\include\\config.php',<br />
+    'line' => 85,<br />
+    'args' => <br />
+    array (<br />
+      0 => 'C:\\web\\common-utf8\\func.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+  6 => <br />
+  array (<br />
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\adm\\install.php',<br />
+    'line' => 3,<br />
+    'args' => <br />
+    array (<br />
+      0 => 'Z:\\home\\htmlweb.dev\\test\\include\\config.php',<br />
+    ),<br />
+    'function' => 'require_once',<br />
+  ),<br />
+)<br />
+<br />
+<br />
+<br />
+url=/adm/install.php<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\class\\db.php',<br />
+    'line' => 104,<br />
+    'function' => 'AddToLog',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\class\\db.php',<br />
+    'line' => 141,<br />
+    'function' => 'add_sqlerror',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\class\\db.php',<br />
+    'line' => 176,<br />
+    'function' => 'sql',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\class\\get.php',<br />
+    'line' => 279,<br />
+    'function' => 'Select',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\func.php',<br />
+    'line' => 96,<br />
+    'function' => '__callStatic',<br />
+    'class' => 'Get',<br />
+    'type' => '::',<br />
+  ),<br />
+  5 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\func.php',<br />
+    'line' => 96,<br />
+    'function' => 'DEBUG',<br />
+    'class' => 'Get',<br />
+    'type' => '::',<br />
+  ),<br />
+  6 => <br />
+  array (<br />
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\include\\config.php',<br />
+    'line' => 85,<br />
+    'args' => <br />
+    array (<br />
+      0 => 'C:\\web\\common-utf8\\func.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+  7 => <br />
+  array (<br />
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\adm\\install.php',<br />
+    'line' => 3,<br />
+    'args' => <br />
+    array (<br />
+      0 => 'Z:\\home\\htmlweb.dev\\test\\include\\config.php',<br />
+    ),<br />
+    'function' => 'require_once',<br />
+  ),<br />
+).<br><br />
+<br>
+<a href='http://test.htmlweb.dev/log/error/2017_04_27.log'>Все ошибки за день</a><br>
+
+
+28-04-2017 22:08:55 SQL error report
+28.04.2017 22:08<br />
+28.04.2017 22:08<br />
+Запрос:<br />
+SELECT * FROM db_user WHERE email="kdg@htmlweb.ru" LIMIT 1<br />
+<br />
+info:<br />
+error:Unknown column 'email' in 'where clause'<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\class\\db.php',<br />
+    'line' => 142,<br />
+    'function' => 'add_sqlerror',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\class\\db.php',<br />
+    'line' => 177,<br />
+    'function' => 'sql',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\class\\user.php',<br />
+    'line' => 1294,<br />
+    'function' => 'Select',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\index.php(56) : eval()\'d code',<br />
+    'line' => 10,<br />
+    'function' => 'register',<br />
+    'class' => 'User',<br />
+    'type' => '::',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\index.php',<br />
+    'line' => 56,<br />
+    'function' => 'eval',<br />
+  ),<br />
+)<br />
+<br />
+<br />
+<br />
+url=/kupit/delivery, referer=http://test.htmlweb.dev/<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\class\\db.php',<br />
+    'line' => 105,<br />
+    'function' => 'AddToLog',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\class\\db.php',<br />
+    'line' => 142,<br />
+    'function' => 'add_sqlerror',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\class\\db.php',<br />
+    'line' => 177,<br />
+    'function' => 'sql',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\class\\user.php',<br />
+    'line' => 1294,<br />
+    'function' => 'Select',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\index.php(56) : eval()\'d code',<br />
+    'line' => 10,<br />
+    'function' => 'register',<br />
+    'class' => 'User',<br />
+    'type' => '::',<br />
+  ),<br />
+  5 => <br />
+  array (<br />
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\index.php',<br />
+    'line' => 56,<br />
+    'function' => 'eval',<br />
+  ),<br />
+).<br><br />
+<br>
+<a href='http://test.htmlweb.dev/log/error/2017_04_28.log'>Все ошибки за день</a><br>
+
+
+28-04-2017 23:50:59 SQL error report
+28.04.2017 23:50<br />
+28.04.2017 23:50<br />
+Запрос:<br />
+SELECT zakaz.time as time, zakaz.user as user, zakaz.user as user, tovar.type as type, zakaz2.kol as kol, zakaz2.tovar as tovar, tovar.name as tovar_name, tovar.ed as ed,<br />
+	(zakaz2.kol*zakaz2.price) AS summ, (tovar.price * zakaz2.kol ) AS s1, ( tovar.price0 * zakaz2.kol ) AS s2, zakaz2.device as device, zakaz2.time as time2<br />
+	FROM db_zakaz as zakaz,db_zakaz2 as zakaz2,db_tovar as tovar<br />
+	WHERE zakaz.id=zakaz2.zakaz and zakaz2.tovar=tovar.id and zakaz.user='6' <br />
+	ORDER BY time, type DESC<br />
+<br />
+info:<br />
+error:Unknown column 'zakaz2.time' in 'field list'<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\class\\db.php',<br />
+    'line' => 142,<br />
+    'function' => 'add_sqlerror',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\include\\class\\zakaz.php',<br />
+    'line' => 255,<br />
+    'function' => 'sql',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\user\\zakaz.php',<br />
+    'line' => 33,<br />
+    'function' => 'ushow',<br />
+    'class' => 'Zakaz',<br />
+    'type' => '::',<br />
+  ),<br />
+)<br />
+<br />
+<br />
+<br />
+url=/user/zakaz.php, referer=http://test.htmlweb.dev/kupit/success<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\class\\db.php',<br />
+    'line' => 105,<br />
+    'function' => 'AddToLog',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\class\\db.php',<br />
+    'line' => 142,<br />
+    'function' => 'add_sqlerror',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\include\\class\\zakaz.php',<br />
+    'line' => 255,<br />
+    'function' => 'sql',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\user\\zakaz.php',<br />
+    'line' => 33,<br />
+    'function' => 'ushow',<br />
+    'class' => 'Zakaz',<br />
+    'type' => '::',<br />
+  ),<br />
+).<br><br />
+<br>
+<a href='http://test.htmlweb.dev/log/error/2017_04_28.log'>Все ошибки за день</a><br>
+
+
+29-04-2017 19:32:48 PHP error report
+29.04.2017 19:32<br />
+<br />
+<br />
+29.04.2017 19:32<br />
+Произошла ошибка с кодом <b>8</b> Замечание!<br />
+Файл: C:\web\common-utf8\class\user.php, строка 748.<br />
+<br><br />
+747:     setcookie("name", $user['name'], time()+60*60*24*30, CookiePath, CookieDomain);<br />
+<br><br />
+748:     setcookie("hash", $user['pass'], time()+60*60*24*30, CookiePath, CookieDomain);<br />
+<br><br />
+749:     //@setcookie("ref", '', time() - 999, CookiePath, CookieDomain); // удаляю реферальное cookie<br />
+Запрос: /user/api.php?vk&access_token=bc44427e830c360ae0d1c4e6397df037545e10a4ab26e77812b7aaee8e5ef8ec05e60738050d48b37d50b&expires_in=86398&user_id=5607242&email=kdg%40htmlweb.ru.<br><br />
+SQL-Запрос: UPDATE db_user SET uid=44813268 WHERE id="7" LIMIT 1.<br />
+Текст ошибки: <i>Undefined index: pass</i><br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\class\\user.php',<br />
+    'line' => 748,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\user\\api.php',<br />
+    'line' => 55,<br />
+    'function' => 'login_vk',<br />
+    'class' => 'User',<br />
+    'type' => '::',<br />
+  ),<br />
+)<br />
+<br />
+<br><br />
+<a href='http://test.htmlweb.dev/log/error/7723616d5d423f1cb72834787fc65f14.htm'>Переменные</a><br />
+<br />
+<br />
+url=/user/api.php?vk&access_token=bc44427e830c360ae0d1c4e6397df037545e10a4ab26e77812b7aaee8e5ef8ec05e60738050d48b37d50b&expires_in=86398&user_id=5607242&email=kdg%40htmlweb.ru<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\func.php',<br />
+    'line' => 468,<br />
+    'function' => 'AddToLog',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\class\\user.php',<br />
+    'line' => 748,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\user\\api.php',<br />
+    'line' => 55,<br />
+    'function' => 'login_vk',<br />
+    'class' => 'User',<br />
+    'type' => '::',<br />
+  ),<br />
+).<br><br />
+<br>
+<a href='http://test.htmlweb.dev/log/error/2017_04_29.log'>Все ошибки за день</a><br>
+
+
+18-05-2017 10:47:17 PHP error report
+18.05.2017 10:47<br />
+<br />
+<br />
+18.05.2017 10:47<br />
+Произошла ошибка с кодом <b>8</b> Замечание!<br />
+Файл: C:\web\common-utf8\class\user.php, строка 789.<br />
+<br><br />
+788:         $fields=[];<br />
+<br><br />
+789:         if($fields['uid'])$fields['uid']=0;   // сбрасываю хеш<br />
+<br><br />
+790:         if($user1['adm']==0)$fields['adm']=1; // подтверждаю почту, если зарегистрирован и не подтверждена<br />
+Запрос: /user/api.php?fb&access_token=EAAFgEsSmWZBEBAPPTl03SaJdIR5dufc5fTHzg5UH2gX9bYzgEuI2n0b6XGIvgR6cDc4b3B6MhGZAa3EsA5ZBGKSRNZAQOuTlxcSWcU3BNCgJfarZCxxKZCIjxgEOJHTTtjfC33gVruahKIZBRR1wRtHzvEliegeKoZCLrImLz3f6PAZDZD&token_type=bearer&expires_in=5183999.<br><br />
+SQL-Запрос: SELECT * FROM db_user WHERE mail='kdg@htmlweb.ru' LIMIT 1.<br />
+Текст ошибки: <i>Undefined index: uid</i><br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\class\\user.php',<br />
+    'line' => 789,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\user\\api.php',<br />
+    'line' => 82,<br />
+    'function' => 'login_fb',<br />
+    'class' => 'User',<br />
+    'type' => '::',<br />
+  ),<br />
+)<br />
+<br />
+<br><br />
+<a href='http://test.htmlweb.dev/log/error/4l10bta0bp7dc0ddd8l1ii4ip7.htm'>Переменные</a><br />
+<br />
+<br />
+url=/user/api.php?fb&access_token=EAAFgEsSmWZBEBAPPTl03SaJdIR5dufc5fTHzg5UH2gX9bYzgEuI2n0b6XGIvgR6cDc4b3B6MhGZAa3EsA5ZBGKSRNZAQOuTlxcSWcU3BNCgJfarZCxxKZCIjxgEOJHTTtjfC33gVruahKIZBRR1wRtHzvEliegeKoZCLrImLz3f6PAZDZD&token_type=bearer&expires_in=5183999, referer=http://test.htmlweb.dev/user/signup.php<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\func.php',<br />
+    'line' => 480,<br />
+    'function' => 'AddToLog',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => 'C:\\web\\common-utf8\\class\\user.php',<br />
+    'line' => 789,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => 'Z:\\home\\htmlweb.dev\\test\\user\\api.php',<br />
+    'line' => 82,<br />
+    'function' => 'login_fb',<br />
+    'class' => 'User',<br />
+    'type' => '::',<br />
+  ),<br />
+).<br><br />
+<br>
+<a href='http://test.htmlweb.dev/log/error/2017_05_18.log'>Все ошибки за день</a><br>
+
+
+04-07-2017 10:44:24 PHP error report
+04.07.2017 10:44<br />
+<br />
+<br />
+04.07.2017 10:44<br />
+Произошла ошибка с кодом <b>2</b> Предупреждение!<br />
+Файл: /var/www/test.ru/include/common-utf8/class/db.php, строка 179.<br />
+<br><br />
+178:         }<br />
+<br><br />
+179:         return mysqli_fetch_assoc(self::sql('SELECT * FROM '.(is_null($prefix) ? self::db_prefix : $prefix) .$tbl.' WHERE '.$where.' LIMIT 1'));<br />
+<br><br />
+180:     }<br />
+Запрос: /.<br><br />
+SQL-Запрос: INSERT INTO `user` ( `id`, `name`, `fullname`, `tel`, `kart`, `sms`, `mail`, `rss`, `birthday`, `date0`, `city`, `address`, `adm`, `pass`, `sex`, `discount0`, `discount1`, `comment`, `info`, `time`, `ip`, `uid`)<br />
+	 VALUES ('4', 'nesanton', 'Антон Нестеров', '79094134004', '', '0', 'anton@nesterov.pro', '0', '20.04.2020', '2017-04-20', '0', '', '99', '4885d85aa02647ff2b730accf803a7fa', null, '0', '0', '', '', '2017-06-19 09:29:16', '3107057996', '0').<br />
+Текст ошибки: <i>mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given</i><br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/class/db.php',<br />
+    'line' => 179,<br />
+    'function' => 'mysqli_fetch_assoc',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 125,<br />
+    'function' => 'Select',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 116,<br />
+    'function' => 'getBlock',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php(57) : eval()\'d code',<br />
+    'line' => 1,<br />
+    'function' => 'echoBlock',<br />
+  ),<br />
+  5 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php',<br />
+    'line' => 57,<br />
+    'function' => 'eval',<br />
+  ),<br />
+)<br />
+<br />
+<br><br />
+<a href='http://test.ru/log/error/17c6bpq46d139ekcj8caufjpt0.htm'>Переменные</a><br />
+<br />
+<br />
+url=/<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/func.php',<br />
+    'line' => 481,<br />
+    'function' => 'AddToLog',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/class/db.php',<br />
+    'line' => 179,<br />
+    'function' => 'mysqli_fetch_assoc',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 125,<br />
+    'function' => 'Select',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 116,<br />
+    'function' => 'getBlock',<br />
+  ),<br />
+  5 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php(57) : eval()\'d code',<br />
+    'line' => 1,<br />
+    'function' => 'echoBlock',<br />
+  ),<br />
+  6 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php',<br />
+    'line' => 57,<br />
+    'function' => 'eval',<br />
+  ),<br />
+).<br><br />
+<br>
+<a href='http://test.ru/log/error/2017_07_04.log'>Все ошибки за день</a><br>
+
+
+05-07-2017 09:11:34 PHP error report
+05.07.2017 09:11<br />
+<br />
+<br />
+05.07.2017 09:11<br />
+Произошла ошибка с кодом <b>2</b> Предупреждение!<br />
+Файл: /var/www/test.ru/include/func1.php(148) : eval()'d code, строка 17.<br />
+<br><br />
+147:         ob_start();<br />
+<br><br />
+148:         eval(' ?&gt;' . $block . "&lt;? ");<br />
+<br><br />
+149:         $block = ob_get_contents();  // Получаем содержимое буфера<br />
+<br />
+16: <br />
+17: <br />
+18: Запрос: /.<br><br />
+SQL-Запрос: SELECT * FROM tovar WHERE 1 ORDER BY price.<br />
+Текст ошибки: <i>Division by zero</i><br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php(148) : eval()\'d code',<br />
+    'line' => 17,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 148,<br />
+    'function' => 'eval',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 117,<br />
+    'function' => 'getBlock',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php(59) : eval()\'d code',<br />
+    'line' => 40,<br />
+    'function' => 'echoBlock',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php',<br />
+    'line' => 59,<br />
+    'function' => 'eval',<br />
+  ),<br />
+)<br />
+<br />
+<br><br />
+<a href='http://test.ru/log/error/d762oll7p1rr19v56mu67jl607.htm'>Переменные</a><br />
+<br />
+<br />
+url=/<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/func.php',<br />
+    'line' => 481,<br />
+    'function' => 'AddToLog',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php(148) : eval()\'d code',<br />
+    'line' => 17,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 148,<br />
+    'function' => 'eval',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 117,<br />
+    'function' => 'getBlock',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php(59) : eval()\'d code',<br />
+    'line' => 40,<br />
+    'function' => 'echoBlock',<br />
+  ),<br />
+  5 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php',<br />
+    'line' => 59,<br />
+    'function' => 'eval',<br />
+  ),<br />
+).<br><br />
+<br>
+<a href='http://test.ru/log/error/2017_07_05.log'>Все ошибки за день</a><br>
+
+
+06-07-2017 09:06:21 PHP error report
+06.07.2017 09:06<br />
+<br />
+<br />
+06.07.2017 09:06<br />
+Произошла ошибка с кодом <b>2</b> Предупреждение!<br />
+Файл: /var/www/test.ru/include/func1.php(148) : eval()'d code, строка 17.<br />
+<br><br />
+147:         ob_start();<br />
+<br><br />
+148:         eval(' ?&gt;' . $block . "&lt;? ");<br />
+<br><br />
+149:         $block = ob_get_contents();  // Получаем содержимое буфера<br />
+<br />
+16: <br />
+17: <br />
+18: Запрос: /.<br><br />
+SQL-Запрос: SELECT * FROM tovar WHERE 1 ORDER BY price.<br />
+Текст ошибки: <i>Division by zero</i><br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php(148) : eval()\'d code',<br />
+    'line' => 17,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 148,<br />
+    'function' => 'eval',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 117,<br />
+    'function' => 'getBlock',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php(59) : eval()\'d code',<br />
+    'line' => 40,<br />
+    'function' => 'echoBlock',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php',<br />
+    'line' => 59,<br />
+    'function' => 'eval',<br />
+  ),<br />
+)<br />
+<br />
+<br><br />
+<a href='http://test.ru/log/error/vvo9on1j7ojfs44hsmp9pp65f1.htm'>Переменные</a><br />
+<br />
+<br />
+url=/<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/func.php',<br />
+    'line' => 481,<br />
+    'function' => 'AddToLog',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php(148) : eval()\'d code',<br />
+    'line' => 17,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 148,<br />
+    'function' => 'eval',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 117,<br />
+    'function' => 'getBlock',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php(59) : eval()\'d code',<br />
+    'line' => 40,<br />
+    'function' => 'echoBlock',<br />
+  ),<br />
+  5 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php',<br />
+    'line' => 59,<br />
+    'function' => 'eval',<br />
+  ),<br />
+).<br><br />
+<br>
+<a href='http://test.ru/log/error/2017_07_06.log'>Все ошибки за день</a><br>
+
+
+07-07-2017 09:07:52 PHP error report
+07.07.2017 09:07<br />
+<br />
+<br />
+07.07.2017 09:07<br />
+Произошла ошибка с кодом <b>2</b> Предупреждение!<br />
+Файл: /var/www/test.ru/include/func1.php(148) : eval()'d code, строка 17.<br />
+<br><br />
+147:         ob_start();<br />
+<br><br />
+148:         eval(' ?&gt;' . $block . "&lt;? ");<br />
+<br><br />
+149:         $block = ob_get_contents();  // Получаем содержимое буфера<br />
+<br />
+16: <br />
+17: <br />
+18: Запрос: /.<br><br />
+SQL-Запрос: SELECT * FROM tovar WHERE 1 ORDER BY price.<br />
+Текст ошибки: <i>Division by zero</i><br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php(148) : eval()\'d code',<br />
+    'line' => 17,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 148,<br />
+    'function' => 'eval',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 117,<br />
+    'function' => 'getBlock',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php(59) : eval()\'d code',<br />
+    'line' => 40,<br />
+    'function' => 'echoBlock',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php',<br />
+    'line' => 59,<br />
+    'function' => 'eval',<br />
+  ),<br />
+)<br />
+<br />
+<br><br />
+<a href='http://test.ru/log/error/rrfr0u1i0lb7qqv8a6uca9kkm1.htm'>Переменные</a><br />
+<br />
+<br />
+url=/<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/func.php',<br />
+    'line' => 481,<br />
+    'function' => 'AddToLog',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php(148) : eval()\'d code',<br />
+    'line' => 17,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 148,<br />
+    'function' => 'eval',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 117,<br />
+    'function' => 'getBlock',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php(59) : eval()\'d code',<br />
+    'line' => 40,<br />
+    'function' => 'echoBlock',<br />
+  ),<br />
+  5 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php',<br />
+    'line' => 59,<br />
+    'function' => 'eval',<br />
+  ),<br />
+).<br><br />
+<br>
+<a href='http://test.ru/log/error/2017_07_07.log'>Все ошибки за день</a><br>
+
+
+08-07-2017 16:10:09 SQL error report
+08.07.2017 16:10<br />
+08.07.2017 16:10<br />
+Невозможно подключение к MySQL: localhost<br />
+info:<br />
+error:<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\common-utf8\\class\\db.php',<br />
+    'line' => 49,<br />
+    'function' => 'add_sqlerror',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\common-utf8\\class\\db.php',<br />
+    'line' => 20,<br />
+    'function' => 'Connect',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\common-utf8\\func.php',<br />
+    'line' => 25,<br />
+    'args' => <br />
+    array (<br />
+      0 => 'W:\\domains\\test.ru\\include\\common-utf8\\class\\db.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'function' => '{closure}',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\common-utf8\\class\\get.php',<br />
+    'line' => 287,<br />
+    'function' => 'spl_autoload_call',<br />
+  ),<br />
+  5 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\common-utf8\\func.php',<br />
+    'line' => 120,<br />
+    'function' => '__callStatic',<br />
+    'class' => 'Get',<br />
+    'type' => '::',<br />
+  ),<br />
+  6 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\config.php',<br />
+    'line' => 93,<br />
+    'args' => <br />
+    array (<br />
+      0 => 'W:\\domains\\test.ru\\include\\common-utf8\\func.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+  7 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\index.php',<br />
+    'line' => 2,<br />
+    'args' => <br />
+    array (<br />
+      0 => 'W:\\domains\\test.ru\\include\\config.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+)<br />
+<br />
+<br />
+<br />
+url=/<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\common-utf8\\class\\db.php',<br />
+    'line' => 107,<br />
+    'function' => 'AddToLog',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\common-utf8\\class\\db.php',<br />
+    'line' => 49,<br />
+    'function' => 'add_sqlerror',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\common-utf8\\class\\db.php',<br />
+    'line' => 20,<br />
+    'function' => 'Connect',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\common-utf8\\func.php',<br />
+    'line' => 25,<br />
+    'args' => <br />
+    array (<br />
+      0 => 'W:\\domains\\test.ru\\include\\common-utf8\\class\\db.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'function' => '{closure}',<br />
+  ),<br />
+  5 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\common-utf8\\class\\get.php',<br />
+    'line' => 287,<br />
+    'function' => 'spl_autoload_call',<br />
+  ),<br />
+  6 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\common-utf8\\func.php',<br />
+    'line' => 120,<br />
+    'function' => '__callStatic',<br />
+    'class' => 'Get',<br />
+    'type' => '::',<br />
+  ),<br />
+  7 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\config.php',<br />
+    'line' => 93,<br />
+    'args' => <br />
+    array (<br />
+      0 => 'W:\\domains\\test.ru\\include\\common-utf8\\func.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+  8 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\index.php',<br />
+    'line' => 2,<br />
+    'args' => <br />
+    array (<br />
+      0 => 'W:\\domains\\test.ru\\include\\config.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+).<br><br />
+<br>
+<a href='http://test.ru/log/error/2017_07_08.log'>Все ошибки за день</a><br>
+
+
+09-07-2017 09:46:49 PHP error report
+09.07.2017 09:46<br />
+<br />
+<br />
+09.07.2017 09:46<br />
+Произошла ошибка с кодом <b>2</b> Предупреждение!<br />
+Файл: W:\domains\test.ru\include\func1.php(148) : eval()'d code, строка 17.<br />
+<br><br />
+147:         ob_start();<br />
+<br><br />
+148:         eval(' ?&gt;' . $block . "&lt;? ");<br />
+<br><br />
+149:         $block = ob_get_contents();  // Получаем содержимое буфера<br />
+<br />
+16: <br />
+17: <br />
+18: Запрос: /.<br><br />
+SQL-Запрос: SELECT * FROM tovar WHERE 1 ORDER BY price.<br />
+Текст ошибки: <i>Division by zero</i><br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\func1.php(148) : eval()\'d code',<br />
+    'line' => 17,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\func1.php',<br />
+    'line' => 148,<br />
+    'function' => 'eval',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\func1.php',<br />
+    'line' => 117,<br />
+    'function' => 'getBlock',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\index.php(59) : eval()\'d code',<br />
+    'line' => 40,<br />
+    'function' => 'echoBlock',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\index.php',<br />
+    'line' => 59,<br />
+    'function' => 'eval',<br />
+  ),<br />
+)<br />
+<br />
+<br><br />
+<a href='http://test.ru/log/error/qt31u37k54ucrk3b420h0sps8qt6r4rs.htm'>Переменные</a><br />
+<br />
+<br />
+url=/<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\common-utf8\\func.php',<br />
+    'line' => 481,<br />
+    'function' => 'AddToLog',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\func1.php(148) : eval()\'d code',<br />
+    'line' => 17,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\func1.php',<br />
+    'line' => 148,<br />
+    'function' => 'eval',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\func1.php',<br />
+    'line' => 117,<br />
+    'function' => 'getBlock',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\index.php(59) : eval()\'d code',<br />
+    'line' => 40,<br />
+    'function' => 'echoBlock',<br />
+  ),<br />
+  5 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\index.php',<br />
+    'line' => 59,<br />
+    'function' => 'eval',<br />
+  ),<br />
+).<br><br />
+<br>
+<a href='http://test.ru/log/error/2017_07_09.log'>Все ошибки за день</a><br>
+
+
+10-07-2017 09:25:02 SQL error report
+10.07.2017 09:25<br />
+10.07.2017 09:25<br />
+Невозможно подключение к MySQL: localhost<br />
+info:<br />
+error:<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/class/db.php',<br />
+    'line' => 49,<br />
+    'function' => 'add_sqlerror',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/class/db.php',<br />
+    'line' => 20,<br />
+    'function' => 'Connect',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/func.php',<br />
+    'line' => 25,<br />
+    'args' => <br />
+    array (<br />
+      0 => '/var/www/test.ru/include/common-utf8/class/db.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'function' => '{closure}',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/class/get.php',<br />
+    'line' => 287,<br />
+    'function' => 'spl_autoload_call',<br />
+  ),<br />
+  5 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/func.php',<br />
+    'line' => 120,<br />
+    'function' => '__callStatic',<br />
+    'class' => 'Get',<br />
+    'type' => '::',<br />
+  ),<br />
+  6 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/func.php',<br />
+    'line' => 120,<br />
+    'function' => 'DEBUG',<br />
+    'class' => 'Get',<br />
+    'type' => '::',<br />
+  ),<br />
+  7 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/config.php',<br />
+    'line' => 93,<br />
+    'args' => <br />
+    array (<br />
+      0 => '/var/www/test.ru/include/common-utf8/func.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+  8 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php',<br />
+    'line' => 2,<br />
+    'args' => <br />
+    array (<br />
+      0 => '/var/www/test.ru/include/config.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+)<br />
+<br />
+<br />
+<br />
+url=/<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/class/db.php',<br />
+    'line' => 107,<br />
+    'function' => 'AddToLog',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/class/db.php',<br />
+    'line' => 49,<br />
+    'function' => 'add_sqlerror',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/class/db.php',<br />
+    'line' => 20,<br />
+    'function' => 'Connect',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/func.php',<br />
+    'line' => 25,<br />
+    'args' => <br />
+    array (<br />
+      0 => '/var/www/test.ru/include/common-utf8/class/db.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'function' => '{closure}',<br />
+  ),<br />
+  5 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/class/get.php',<br />
+    'line' => 287,<br />
+    'function' => 'spl_autoload_call',<br />
+  ),<br />
+  6 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/func.php',<br />
+    'line' => 120,<br />
+    'function' => '__callStatic',<br />
+    'class' => 'Get',<br />
+    'type' => '::',<br />
+  ),<br />
+  7 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/func.php',<br />
+    'line' => 120,<br />
+    'function' => 'DEBUG',<br />
+    'class' => 'Get',<br />
+    'type' => '::',<br />
+  ),<br />
+  8 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/config.php',<br />
+    'line' => 93,<br />
+    'args' => <br />
+    array (<br />
+      0 => '/var/www/test.ru/include/common-utf8/func.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+  9 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php',<br />
+    'line' => 2,<br />
+    'args' => <br />
+    array (<br />
+      0 => '/var/www/test.ru/include/config.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+).<br><br />
+<br>
+<a href='http://test.ru/log/error/2017_07_10.log'>Все ошибки за день</a><br>
+
+
+11-07-2017 09:25:25 PHP error report
+11.07.2017 09:25<br />
+<br />
+<br />
+11.07.2017 09:25<br />
+Произошла ошибка с кодом <b>2</b> Предупреждение!<br />
+Файл: /var/www/test.ru/include/func1.php(148) : eval()'d code, строка 17.<br />
+<br><br />
+147:         ob_start();<br />
+<br><br />
+148:         eval(' ?&gt;' . $block . "&lt;? ");<br />
+<br><br />
+149:         $block = ob_get_contents();  // Получаем содержимое буфера<br />
+<br />
+16: <br />
+17: <br />
+18: Запрос: /.<br><br />
+SQL-Запрос: SELECT * FROM tovar WHERE 1 ORDER BY price.<br />
+Текст ошибки: <i>Division by zero</i><br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php(148) : eval()\'d code',<br />
+    'line' => 17,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 148,<br />
+    'function' => 'eval',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 117,<br />
+    'function' => 'getBlock',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php(59) : eval()\'d code',<br />
+    'line' => 40,<br />
+    'function' => 'echoBlock',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php',<br />
+    'line' => 59,<br />
+    'function' => 'eval',<br />
+  ),<br />
+)<br />
+<br />
+<br><br />
+<a href='http://test.ru/log/error/14a136fpfi91n8n08sggm5qo05.htm'>Переменные</a><br />
+<br />
+<br />
+url=/<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/func.php',<br />
+    'line' => 481,<br />
+    'function' => 'AddToLog',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php(148) : eval()\'d code',<br />
+    'line' => 17,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 148,<br />
+    'function' => 'eval',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 117,<br />
+    'function' => 'getBlock',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php(59) : eval()\'d code',<br />
+    'line' => 40,<br />
+    'function' => 'echoBlock',<br />
+  ),<br />
+  5 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php',<br />
+    'line' => 59,<br />
+    'function' => 'eval',<br />
+  ),<br />
+).<br><br />
+<br>
+<a href='http://test.ru/log/error/2017_07_11.log'>Все ошибки за день</a><br>
+
+
+12-07-2017 09:10:22 PHP error report
+12.07.2017 09:10<br />
+<br />
+<br />
+12.07.2017 09:10<br />
+Произошла ошибка с кодом <b>2</b> Предупреждение!<br />
+Файл: /var/www/test.ru/include/func1.php(148) : eval()'d code, строка 17.<br />
+<br><br />
+147:         ob_start();<br />
+<br><br />
+148:         eval(' ?&gt;' . $block . "&lt;? ");<br />
+<br><br />
+149:         $block = ob_get_contents();  // Получаем содержимое буфера<br />
+<br />
+16: <br />
+17: <br />
+18: Запрос: /.<br><br />
+SQL-Запрос: SELECT * FROM tovar WHERE 1 ORDER BY price.<br />
+Текст ошибки: <i>Division by zero</i><br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php(148) : eval()\'d code',<br />
+    'line' => 17,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 148,<br />
+    'function' => 'eval',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 117,<br />
+    'function' => 'getBlock',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php(59) : eval()\'d code',<br />
+    'line' => 40,<br />
+    'function' => 'echoBlock',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php',<br />
+    'line' => 59,<br />
+    'function' => 'eval',<br />
+  ),<br />
+)<br />
+<br />
+<br><br />
+<a href='http://test.ru/log/error/0f6cb4tkmf1u30kbbg4q6449u2.htm'>Переменные</a><br />
+<br />
+<br />
+url=/<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/func.php',<br />
+    'line' => 481,<br />
+    'function' => 'AddToLog',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php(148) : eval()\'d code',<br />
+    'line' => 17,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 148,<br />
+    'function' => 'eval',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 117,<br />
+    'function' => 'getBlock',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php(59) : eval()\'d code',<br />
+    'line' => 40,<br />
+    'function' => 'echoBlock',<br />
+  ),<br />
+  5 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php',<br />
+    'line' => 59,<br />
+    'function' => 'eval',<br />
+  ),<br />
+).<br><br />
+<br>
+<a href='http://test.ru/log/error/2017_07_12.log'>Все ошибки за день</a><br>
+
+
+13-07-2017 19:10:22 SQL error report
+13.07.2017 19:10<br />
+13.07.2017 19:10<br />
+Невозможно подключение к MySQL: localhost<br />
+info:<br />
+error:<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\common-utf8\\class\\db.php',<br />
+    'line' => 49,<br />
+    'function' => 'add_sqlerror',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\common-utf8\\class\\db.php',<br />
+    'line' => 20,<br />
+    'function' => 'Connect',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\common-utf8\\func.php',<br />
+    'line' => 25,<br />
+    'args' => <br />
+    array (<br />
+      0 => 'W:\\domains\\test.ru\\include\\common-utf8\\class\\db.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'function' => '{closure}',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\common-utf8\\class\\get.php',<br />
+    'line' => 287,<br />
+    'function' => 'spl_autoload_call',<br />
+  ),<br />
+  5 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\common-utf8\\func.php',<br />
+    'line' => 120,<br />
+    'function' => '__callStatic',<br />
+    'class' => 'Get',<br />
+    'type' => '::',<br />
+  ),<br />
+  6 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\config.php',<br />
+    'line' => 93,<br />
+    'args' => <br />
+    array (<br />
+      0 => 'W:\\domains\\test.ru\\include\\common-utf8\\func.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+  7 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\index.php',<br />
+    'line' => 2,<br />
+    'args' => <br />
+    array (<br />
+      0 => 'W:\\domains\\test.ru\\include\\config.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+)<br />
+<br />
+<br />
+<br />
+url=/<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\common-utf8\\class\\db.php',<br />
+    'line' => 107,<br />
+    'function' => 'AddToLog',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\common-utf8\\class\\db.php',<br />
+    'line' => 49,<br />
+    'function' => 'add_sqlerror',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\common-utf8\\class\\db.php',<br />
+    'line' => 20,<br />
+    'function' => 'Connect',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\common-utf8\\func.php',<br />
+    'line' => 25,<br />
+    'args' => <br />
+    array (<br />
+      0 => 'W:\\domains\\test.ru\\include\\common-utf8\\class\\db.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'function' => '{closure}',<br />
+  ),<br />
+  5 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\common-utf8\\class\\get.php',<br />
+    'line' => 287,<br />
+    'function' => 'spl_autoload_call',<br />
+  ),<br />
+  6 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\common-utf8\\func.php',<br />
+    'line' => 120,<br />
+    'function' => '__callStatic',<br />
+    'class' => 'Get',<br />
+    'type' => '::',<br />
+  ),<br />
+  7 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\config.php',<br />
+    'line' => 93,<br />
+    'args' => <br />
+    array (<br />
+      0 => 'W:\\domains\\test.ru\\include\\common-utf8\\func.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+  8 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\index.php',<br />
+    'line' => 2,<br />
+    'args' => <br />
+    array (<br />
+      0 => 'W:\\domains\\test.ru\\include\\config.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+).<br><br />
+<br>
+<a href='http://test.ru/log/error/2017_07_13.log'>Все ошибки за день</a><br>
+
+
+15-07-2017 09:52:16 PHP error report
+15.07.2017 09:52<br />
+<br />
+<br />
+15.07.2017 09:52<br />
+Произошла ошибка с кодом <b>2</b> Предупреждение!<br />
+Файл: W:\domains\test.ru\include\func1.php(148) : eval()'d code, строка 17.<br />
+<br><br />
+147:         ob_start();<br />
+<br><br />
+148:         eval(' ?&gt;' . $block . "&lt;? ");<br />
+<br><br />
+149:         $block = ob_get_contents();  // Получаем содержимое буфера<br />
+<br />
+16: <br />
+17: <br />
+18: Запрос: /.<br><br />
+SQL-Запрос: SELECT * FROM tovar WHERE 1 ORDER BY price.<br />
+Текст ошибки: <i>Division by zero</i><br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\func1.php(148) : eval()\'d code',<br />
+    'line' => 17,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\func1.php',<br />
+    'line' => 148,<br />
+    'function' => 'eval',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\func1.php',<br />
+    'line' => 117,<br />
+    'function' => 'getBlock',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\index.php(59) : eval()\'d code',<br />
+    'line' => 40,<br />
+    'function' => 'echoBlock',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\index.php',<br />
+    'line' => 59,<br />
+    'function' => 'eval',<br />
+  ),<br />
+)<br />
+<br />
+<br><br />
+<a href='http://test.ru/log/error/p5sqfr7lhh5vuihip3178h7p73l0q600.htm'>Переменные</a><br />
+<br />
+<br />
+url=/<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\common-utf8\\func.php',<br />
+    'line' => 481,<br />
+    'function' => 'AddToLog',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\func1.php(148) : eval()\'d code',<br />
+    'line' => 17,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\func1.php',<br />
+    'line' => 148,<br />
+    'function' => 'eval',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\func1.php',<br />
+    'line' => 117,<br />
+    'function' => 'getBlock',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\index.php(59) : eval()\'d code',<br />
+    'line' => 40,<br />
+    'function' => 'echoBlock',<br />
+  ),<br />
+  5 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\index.php',<br />
+    'line' => 59,<br />
+    'function' => 'eval',<br />
+  ),<br />
+).<br><br />
+<br>
+<a href='http://test.ru/log/error/2017_07_15.log'>Все ошибки за день</a><br>
+
+
+16-07-2017 10:51:08 PHP error report
+16.07.2017 10:51<br />
+<br />
+<br />
+16.07.2017 10:51<br />
+Произошла ошибка с кодом <b>2</b> Предупреждение!<br />
+Файл: W:\domains\test.ru\include\func1.php(148) : eval()'d code, строка 17.<br />
+<br><br />
+147:         ob_start();<br />
+<br><br />
+148:         eval(' ?&gt;' . $block . "&lt;? ");<br />
+<br><br />
+149:         $block = ob_get_contents();  // Получаем содержимое буфера<br />
+<br />
+16: <br />
+17: <br />
+18: Запрос: /.<br><br />
+SQL-Запрос: SELECT * FROM tovar WHERE 1 ORDER BY price.<br />
+Текст ошибки: <i>Division by zero</i><br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\func1.php(148) : eval()\'d code',<br />
+    'line' => 17,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\func1.php',<br />
+    'line' => 148,<br />
+    'function' => 'eval',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\func1.php',<br />
+    'line' => 117,<br />
+    'function' => 'getBlock',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\index.php(59) : eval()\'d code',<br />
+    'line' => 40,<br />
+    'function' => 'echoBlock',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\index.php',<br />
+    'line' => 59,<br />
+    'function' => 'eval',<br />
+  ),<br />
+)<br />
+<br />
+<br><br />
+<a href='http://test.ru/log/error/9c84da8fee839b34572fad363ce47569.htm'>Переменные</a><br />
+<br />
+<br />
+url=/<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\common-utf8\\func.php',<br />
+    'line' => 481,<br />
+    'function' => 'AddToLog',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\func1.php(148) : eval()\'d code',<br />
+    'line' => 17,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\func1.php',<br />
+    'line' => 148,<br />
+    'function' => 'eval',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\func1.php',<br />
+    'line' => 117,<br />
+    'function' => 'getBlock',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\index.php(59) : eval()\'d code',<br />
+    'line' => 40,<br />
+    'function' => 'echoBlock',<br />
+  ),<br />
+  5 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\index.php',<br />
+    'line' => 59,<br />
+    'function' => 'eval',<br />
+  ),<br />
+).<br><br />
+<br>
+<a href='http://test.ru/log/error/2017_07_16.log'>Все ошибки за день</a><br>
+
+
+17-07-2017 09:15:37 SQL error report
+17.07.2017 09:15<br />
+17.07.2017 09:15<br />
+Невозможно подключение к MySQL: localhost<br />
+info:<br />
+error:<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/class/db.php',<br />
+    'line' => 49,<br />
+    'function' => 'add_sqlerror',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/class/db.php',<br />
+    'line' => 20,<br />
+    'function' => 'Connect',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/func.php',<br />
+    'line' => 25,<br />
+    'args' => <br />
+    array (<br />
+      0 => '/var/www/test.ru/include/common-utf8/class/db.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'function' => '{closure}',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/class/get.php',<br />
+    'line' => 287,<br />
+    'function' => 'spl_autoload_call',<br />
+  ),<br />
+  5 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/func.php',<br />
+    'line' => 120,<br />
+    'function' => '__callStatic',<br />
+    'class' => 'Get',<br />
+    'type' => '::',<br />
+  ),<br />
+  6 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/func.php',<br />
+    'line' => 120,<br />
+    'function' => 'DEBUG',<br />
+    'class' => 'Get',<br />
+    'type' => '::',<br />
+  ),<br />
+  7 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/config.php',<br />
+    'line' => 93,<br />
+    'args' => <br />
+    array (<br />
+      0 => '/var/www/test.ru/include/common-utf8/func.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+  8 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/user/nakladnaya.php',<br />
+    'line' => 2,<br />
+    'args' => <br />
+    array (<br />
+      0 => '/var/www/test.ru/include/config.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+)<br />
+<br />
+<br />
+<br />
+url=/user/nakladnaya.php<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/class/db.php',<br />
+    'line' => 107,<br />
+    'function' => 'AddToLog',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/class/db.php',<br />
+    'line' => 49,<br />
+    'function' => 'add_sqlerror',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/class/db.php',<br />
+    'line' => 20,<br />
+    'function' => 'Connect',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/func.php',<br />
+    'line' => 25,<br />
+    'args' => <br />
+    array (<br />
+      0 => '/var/www/test.ru/include/common-utf8/class/db.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'function' => '{closure}',<br />
+  ),<br />
+  5 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/class/get.php',<br />
+    'line' => 287,<br />
+    'function' => 'spl_autoload_call',<br />
+  ),<br />
+  6 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/func.php',<br />
+    'line' => 120,<br />
+    'function' => '__callStatic',<br />
+    'class' => 'Get',<br />
+    'type' => '::',<br />
+  ),<br />
+  7 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/func.php',<br />
+    'line' => 120,<br />
+    'function' => 'DEBUG',<br />
+    'class' => 'Get',<br />
+    'type' => '::',<br />
+  ),<br />
+  8 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/config.php',<br />
+    'line' => 93,<br />
+    'args' => <br />
+    array (<br />
+      0 => '/var/www/test.ru/include/common-utf8/func.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+  9 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/user/nakladnaya.php',<br />
+    'line' => 2,<br />
+    'args' => <br />
+    array (<br />
+      0 => '/var/www/test.ru/include/config.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+).<br><br />
+<br>
+<a href='http://test.ru/log/error/2017_07_17.log'>Все ошибки за день</a><br>
+
+
+18-07-2017 09:13:02 PHP error report
+18.07.2017 09:13<br />
+<br />
+<br />
+18.07.2017 09:13<br />
+Произошла ошибка с кодом <b>2</b> Предупреждение!<br />
+Файл: /var/www/test.ru/include/func1.php(148) : eval()'d code, строка 17.<br />
+<br><br />
+147:         ob_start();<br />
+<br><br />
+148:         eval(' ?&gt;' . $block . "&lt;? ");<br />
+<br><br />
+149:         $block = ob_get_contents();  // Получаем содержимое буфера<br />
+<br />
+16: <br />
+17: <br />
+18: Запрос: /.<br><br />
+SQL-Запрос: SELECT * FROM tovar WHERE 1 ORDER BY price.<br />
+Текст ошибки: <i>Division by zero</i><br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php(148) : eval()\'d code',<br />
+    'line' => 17,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 148,<br />
+    'function' => 'eval',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 117,<br />
+    'function' => 'getBlock',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php(59) : eval()\'d code',<br />
+    'line' => 40,<br />
+    'function' => 'echoBlock',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php',<br />
+    'line' => 59,<br />
+    'function' => 'eval',<br />
+  ),<br />
+)<br />
+<br />
+<br><br />
+<a href='http://test.ru/log/error/3sm71ga61rf2r2i0hh60e6mjl4.htm'>Переменные</a><br />
+<br />
+<br />
+url=/<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/func.php',<br />
+    'line' => 481,<br />
+    'function' => 'AddToLog',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php(148) : eval()\'d code',<br />
+    'line' => 17,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 148,<br />
+    'function' => 'eval',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 117,<br />
+    'function' => 'getBlock',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php(59) : eval()\'d code',<br />
+    'line' => 40,<br />
+    'function' => 'echoBlock',<br />
+  ),<br />
+  5 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php',<br />
+    'line' => 59,<br />
+    'function' => 'eval',<br />
+  ),<br />
+).<br><br />
+<br>
+<a href='http://test.ru/log/error/2017_07_18.log'>Все ошибки за день</a><br>
+
+
+19-07-2017 09:24:24 PHP error report
+19.07.2017 09:24<br />
+<br />
+<br />
+19.07.2017 09:24<br />
+Произошла ошибка с кодом <b>2</b> Предупреждение!<br />
+Файл: /var/www/test.ru/include/func1.php(148) : eval()'d code, строка 17.<br />
+<br><br />
+147:         ob_start();<br />
+<br><br />
+148:         eval(' ?&gt;' . $block . "&lt;? ");<br />
+<br><br />
+149:         $block = ob_get_contents();  // Получаем содержимое буфера<br />
+<br />
+16: <br />
+17: <br />
+18: Запрос: /.<br><br />
+SQL-Запрос: SELECT * FROM tovar WHERE 1 ORDER BY price.<br />
+Текст ошибки: <i>Division by zero</i><br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php(148) : eval()\'d code',<br />
+    'line' => 17,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 148,<br />
+    'function' => 'eval',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 117,<br />
+    'function' => 'getBlock',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php(59) : eval()\'d code',<br />
+    'line' => 40,<br />
+    'function' => 'echoBlock',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php',<br />
+    'line' => 59,<br />
+    'function' => 'eval',<br />
+  ),<br />
+)<br />
+<br />
+<br><br />
+<a href='http://test.ru/log/error/egcj5ikqdqh0reo72s54oibs60.htm'>Переменные</a><br />
+<br />
+<br />
+url=/<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/func.php',<br />
+    'line' => 481,<br />
+    'function' => 'AddToLog',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php(148) : eval()\'d code',<br />
+    'line' => 17,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 148,<br />
+    'function' => 'eval',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 117,<br />
+    'function' => 'getBlock',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php(59) : eval()\'d code',<br />
+    'line' => 40,<br />
+    'function' => 'echoBlock',<br />
+  ),<br />
+  5 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php',<br />
+    'line' => 59,<br />
+    'function' => 'eval',<br />
+  ),<br />
+).<br><br />
+<br>
+<a href='http://test.ru/log/error/2017_07_19.log'>Все ошибки за день</a><br>
+
+
+27-07-2017 13:12:55 SQL error report
+27.07.2017 13:12<br />
+27.07.2017 13:12<br />
+Невозможно подключение к MySQL: localhost<br />
+info:<br />
+error:<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\common-utf8\\class\\db.php',<br />
+    'line' => 49,<br />
+    'function' => 'add_sqlerror',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\common-utf8\\class\\db.php',<br />
+    'line' => 20,<br />
+    'function' => 'Connect',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\common-utf8\\func.php',<br />
+    'line' => 25,<br />
+    'args' => <br />
+    array (<br />
+      0 => 'W:\\domains\\test.ru\\include\\common-utf8\\class\\db.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'function' => '{closure}',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\common-utf8\\class\\get.php',<br />
+    'line' => 287,<br />
+    'function' => 'spl_autoload_call',<br />
+  ),<br />
+  5 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\common-utf8\\func.php',<br />
+    'line' => 120,<br />
+    'function' => '__callStatic',<br />
+    'class' => 'Get',<br />
+    'type' => '::',<br />
+  ),<br />
+  6 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\common-utf8\\func.php',<br />
+    'line' => 120,<br />
+    'function' => 'DEBUG',<br />
+    'class' => 'Get',<br />
+    'type' => '::',<br />
+  ),<br />
+  7 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\config.php',<br />
+    'line' => 93,<br />
+    'args' => <br />
+    array (<br />
+      0 => 'W:\\domains\\test.ru\\include\\common-utf8\\func.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+  8 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\index.php',<br />
+    'line' => 2,<br />
+    'args' => <br />
+    array (<br />
+      0 => 'W:\\domains\\test.ru\\include\\config.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+)<br />
+<br />
+<br />
+<br />
+url=/<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\common-utf8\\class\\db.php',<br />
+    'line' => 107,<br />
+    'function' => 'AddToLog',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\common-utf8\\class\\db.php',<br />
+    'line' => 49,<br />
+    'function' => 'add_sqlerror',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\common-utf8\\class\\db.php',<br />
+    'line' => 20,<br />
+    'function' => 'Connect',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\common-utf8\\func.php',<br />
+    'line' => 25,<br />
+    'args' => <br />
+    array (<br />
+      0 => 'W:\\domains\\test.ru\\include\\common-utf8\\class\\db.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'function' => '{closure}',<br />
+  ),<br />
+  5 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\common-utf8\\class\\get.php',<br />
+    'line' => 287,<br />
+    'function' => 'spl_autoload_call',<br />
+  ),<br />
+  6 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\common-utf8\\func.php',<br />
+    'line' => 120,<br />
+    'function' => '__callStatic',<br />
+    'class' => 'Get',<br />
+    'type' => '::',<br />
+  ),<br />
+  7 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\common-utf8\\func.php',<br />
+    'line' => 120,<br />
+    'function' => 'DEBUG',<br />
+    'class' => 'Get',<br />
+    'type' => '::',<br />
+  ),<br />
+  8 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\config.php',<br />
+    'line' => 93,<br />
+    'args' => <br />
+    array (<br />
+      0 => 'W:\\domains\\test.ru\\include\\common-utf8\\func.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+  9 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\index.php',<br />
+    'line' => 2,<br />
+    'args' => <br />
+    array (<br />
+      0 => 'W:\\domains\\test.ru\\include\\config.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+).<br><br />
+<br>
+<a href='http://test.ru/log/error/2017_07_27.log'>Все ошибки за день</a><br>
+
+
+27-07-2017 20:52:46 PHP error report
+27.07.2017 20:52<br />
+<br />
+<br />
+27.07.2017 20:52<br />
+Произошла ошибка с кодом <b>2</b> Предупреждение!<br />
+Файл: W:\domains\test.ru\include\func1.php(148) : eval()'d code, строка 17.<br />
+<br><br />
+147:         ob_start();<br />
+<br><br />
+148:         eval(' ?&gt;' . $block . "&lt;? ");<br />
+<br><br />
+149:         $block = ob_get_contents();  // Получаем содержимое буфера<br />
+<br />
+16: <br />
+17: <br />
+18: Запрос: /.<br><br />
+SQL-Запрос: SELECT * FROM tovar WHERE 1 ORDER BY price.<br />
+Текст ошибки: <i>Division by zero</i><br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\func1.php(148) : eval()\'d code',<br />
+    'line' => 17,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\func1.php',<br />
+    'line' => 148,<br />
+    'function' => 'eval',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\func1.php',<br />
+    'line' => 117,<br />
+    'function' => 'getBlock',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\index.php(59) : eval()\'d code',<br />
+    'line' => 40,<br />
+    'function' => 'echoBlock',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\index.php',<br />
+    'line' => 59,<br />
+    'function' => 'eval',<br />
+  ),<br />
+)<br />
+<br />
+<br><br />
+<a href='http://test.ru/log/error/0onbanpdqg1uhvknk32acd4014.htm'>Переменные</a><br />
+<br />
+<br />
+url=/<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\common-utf8\\func.php',<br />
+    'line' => 481,<br />
+    'function' => 'AddToLog',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\func1.php(148) : eval()\'d code',<br />
+    'line' => 17,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\func1.php',<br />
+    'line' => 148,<br />
+    'function' => 'eval',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\include\\func1.php',<br />
+    'line' => 117,<br />
+    'function' => 'getBlock',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\index.php(59) : eval()\'d code',<br />
+    'line' => 40,<br />
+    'function' => 'echoBlock',<br />
+  ),<br />
+  5 => <br />
+  array (<br />
+    'file' => 'W:\\domains\\test.ru\\index.php',<br />
+    'line' => 59,<br />
+    'function' => 'eval',<br />
+  ),<br />
+).<br><br />
+<br>
+<a href='http://test.ru/log/error/2017_07_27.log'>Все ошибки за день</a><br>
+
+
+01-08-2017 09:14:12 PHP error report
+01.08.2017 09:14<br />
+<br />
+<br />
+01.08.2017 09:14<br />
+Произошла ошибка с кодом <b>2</b> Предупреждение!<br />
+Файл: /var/www/test.ru/include/func1.php(148) : eval()'d code, строка 17.<br />
+<br><br />
+147:         ob_start();<br />
+<br><br />
+148:         eval(' ?&gt;' . $block . "&lt;? ");<br />
+<br><br />
+149:         $block = ob_get_contents();  // Получаем содержимое буфера<br />
+<br />
+16: <br />
+17: <br />
+18: Запрос: /.<br><br />
+SQL-Запрос: SELECT * FROM tovar WHERE 1 ORDER BY price.<br />
+Текст ошибки: <i>Division by zero</i><br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php(148) : eval()\'d code',<br />
+    'line' => 17,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 148,<br />
+    'function' => 'eval',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 117,<br />
+    'function' => 'getBlock',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php(59) : eval()\'d code',<br />
+    'line' => 40,<br />
+    'function' => 'echoBlock',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php',<br />
+    'line' => 59,<br />
+    'function' => 'eval',<br />
+  ),<br />
+)<br />
+<br />
+<br><br />
+<a href='http://test.ru/log/error/2ne4qmh1p4div6dfaj5mtdcm37.htm'>Переменные</a><br />
+<br />
+<br />
+url=/<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/func.php',<br />
+    'line' => 481,<br />
+    'function' => 'AddToLog',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php(148) : eval()\'d code',<br />
+    'line' => 17,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 148,<br />
+    'function' => 'eval',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 117,<br />
+    'function' => 'getBlock',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php(59) : eval()\'d code',<br />
+    'line' => 40,<br />
+    'function' => 'echoBlock',<br />
+  ),<br />
+  5 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php',<br />
+    'line' => 59,<br />
+    'function' => 'eval',<br />
+  ),<br />
+).<br><br />
+<br>
+<a href='http://test.ru/log/error/2017_08_01.log'>Все ошибки за день</a><br>
+
+
+02-08-2017 09:17:03 PHP error report
+02.08.2017 09:17<br />
+<br />
+<br />
+02.08.2017 09:17<br />
+Произошла ошибка с кодом <b>2</b> Предупреждение!<br />
+Файл: /var/www/test.ru/include/func1.php(148) : eval()'d code, строка 17.<br />
+<br><br />
+147:         ob_start();<br />
+<br><br />
+148:         eval(' ?&gt;' . $block . "&lt;? ");<br />
+<br><br />
+149:         $block = ob_get_contents();  // Получаем содержимое буфера<br />
+<br />
+16: <br />
+17: <br />
+18: Запрос: /.<br><br />
+SQL-Запрос: SELECT * FROM tovar WHERE 1 ORDER BY price.<br />
+Текст ошибки: <i>Division by zero</i><br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php(148) : eval()\'d code',<br />
+    'line' => 17,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 148,<br />
+    'function' => 'eval',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 117,<br />
+    'function' => 'getBlock',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php(59) : eval()\'d code',<br />
+    'line' => 40,<br />
+    'function' => 'echoBlock',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php',<br />
+    'line' => 59,<br />
+    'function' => 'eval',<br />
+  ),<br />
+)<br />
+<br />
+<br><br />
+<a href='http://test.ru/log/error/pqkrlebe507r4qjf82r63e76p2.htm'>Переменные</a><br />
+<br />
+<br />
+url=/<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/func.php',<br />
+    'line' => 481,<br />
+    'function' => 'AddToLog',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php(148) : eval()\'d code',<br />
+    'line' => 17,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 148,<br />
+    'function' => 'eval',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 117,<br />
+    'function' => 'getBlock',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php(59) : eval()\'d code',<br />
+    'line' => 40,<br />
+    'function' => 'echoBlock',<br />
+  ),<br />
+  5 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php',<br />
+    'line' => 59,<br />
+    'function' => 'eval',<br />
+  ),<br />
+).<br><br />
+<br>
+<a href='http://test.ru/log/error/2017_08_02.log'>Все ошибки за день</a><br>
+
+
+03-08-2017 09:23:54 PHP error report
+03.08.2017 09:23<br />
+<br />
+<br />
+03.08.2017 09:23<br />
+Произошла ошибка с кодом <b>2</b> Предупреждение!<br />
+Файл: /var/www/test.ru/include/func1.php(148) : eval()'d code, строка 17.<br />
+<br><br />
+147:         ob_start();<br />
+<br><br />
+148:         eval(' ?&gt;' . $block . "&lt;? ");<br />
+<br><br />
+149:         $block = ob_get_contents();  // Получаем содержимое буфера<br />
+<br />
+16: <br />
+17: <br />
+18: Запрос: /.<br><br />
+SQL-Запрос: SELECT * FROM tovar WHERE 1 ORDER BY price.<br />
+Текст ошибки: <i>Division by zero</i><br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php(148) : eval()\'d code',<br />
+    'line' => 17,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 148,<br />
+    'function' => 'eval',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 117,<br />
+    'function' => 'getBlock',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php(59) : eval()\'d code',<br />
+    'line' => 40,<br />
+    'function' => 'echoBlock',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php',<br />
+    'line' => 59,<br />
+    'function' => 'eval',<br />
+  ),<br />
+)<br />
+<br />
+<br><br />
+<a href='http://test.ru/log/error/hn1dn2o1cr8nnfmkdducg2ue53.htm'>Переменные</a><br />
+<br />
+<br />
+url=/<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/func.php',<br />
+    'line' => 481,<br />
+    'function' => 'AddToLog',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php(148) : eval()\'d code',<br />
+    'line' => 17,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 148,<br />
+    'function' => 'eval',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 117,<br />
+    'function' => 'getBlock',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php(59) : eval()\'d code',<br />
+    'line' => 40,<br />
+    'function' => 'echoBlock',<br />
+  ),<br />
+  5 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php',<br />
+    'line' => 59,<br />
+    'function' => 'eval',<br />
+  ),<br />
+).<br><br />
+<br>
+<a href='http://test.ru/log/error/2017_08_03.log'>Все ошибки за день</a><br>
+
+
+07-08-2017 09:14:22 PHP error report
+07.08.2017 09:14<br />
+<br />
+<br />
+07.08.2017 09:14<br />
+Произошла ошибка с кодом <b>2</b> Предупреждение!<br />
+Файл: /var/www/test.ru/include/func1.php(148) : eval()'d code, строка 17.<br />
+<br><br />
+147:         ob_start();<br />
+<br><br />
+148:         eval(' ?&gt;' . $block . "&lt;? ");<br />
+<br><br />
+149:         $block = ob_get_contents();  // Получаем содержимое буфера<br />
+<br />
+16: <br />
+17: <br />
+18: Запрос: /.<br><br />
+SQL-Запрос: SELECT * FROM tovar WHERE 1 ORDER BY price.<br />
+Текст ошибки: <i>Division by zero</i><br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php(148) : eval()\'d code',<br />
+    'line' => 17,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 148,<br />
+    'function' => 'eval',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 117,<br />
+    'function' => 'getBlock',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php(59) : eval()\'d code',<br />
+    'line' => 40,<br />
+    'function' => 'echoBlock',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php',<br />
+    'line' => 59,<br />
+    'function' => 'eval',<br />
+  ),<br />
+)<br />
+<br />
+<br><br />
+<a href='http://test.ru/log/error/lujhv7f5o98dvm6gmln5s69ei2.htm'>Переменные</a><br />
+<br />
+<br />
+url=/<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/func.php',<br />
+    'line' => 481,<br />
+    'function' => 'AddToLog',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php(148) : eval()\'d code',<br />
+    'line' => 17,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 148,<br />
+    'function' => 'eval',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 117,<br />
+    'function' => 'getBlock',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php(59) : eval()\'d code',<br />
+    'line' => 40,<br />
+    'function' => 'echoBlock',<br />
+  ),<br />
+  5 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php',<br />
+    'line' => 59,<br />
+    'function' => 'eval',<br />
+  ),<br />
+).<br><br />
+<br>
+<a href='http://test.ru/log/error/2017_08_07.log'>Все ошибки за день</a><br>
+
+
+08-08-2017 09:10:19 PHP error report
+08.08.2017 09:10<br />
+<br />
+<br />
+08.08.2017 09:10<br />
+Произошла ошибка с кодом <b>2</b> Предупреждение!<br />
+Файл: /var/www/test.ru/include/func1.php(148) : eval()'d code, строка 17.<br />
+<br><br />
+147:         ob_start();<br />
+<br><br />
+148:         eval(' ?&gt;' . $block . "&lt;? ");<br />
+<br><br />
+149:         $block = ob_get_contents();  // Получаем содержимое буфера<br />
+<br />
+16: <br />
+17: <br />
+18: Запрос: /.<br><br />
+SQL-Запрос: SELECT * FROM tovar WHERE 1 ORDER BY price.<br />
+Текст ошибки: <i>Division by zero</i><br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php(148) : eval()\'d code',<br />
+    'line' => 17,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 148,<br />
+    'function' => 'eval',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 117,<br />
+    'function' => 'getBlock',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php(59) : eval()\'d code',<br />
+    'line' => 40,<br />
+    'function' => 'echoBlock',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php',<br />
+    'line' => 59,<br />
+    'function' => 'eval',<br />
+  ),<br />
+)<br />
+<br />
+<br><br />
+<a href='http://test.ru/log/error/h9tlvk1vgh603gn0cr4cjksup6.htm'>Переменные</a><br />
+<br />
+<br />
+url=/<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/func.php',<br />
+    'line' => 481,<br />
+    'function' => 'AddToLog',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php(148) : eval()\'d code',<br />
+    'line' => 17,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 148,<br />
+    'function' => 'eval',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 117,<br />
+    'function' => 'getBlock',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php(59) : eval()\'d code',<br />
+    'line' => 40,<br />
+    'function' => 'echoBlock',<br />
+  ),<br />
+  5 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php',<br />
+    'line' => 59,<br />
+    'function' => 'eval',<br />
+  ),<br />
+).<br><br />
+<br>
+<a href='http://test.ru/log/error/2017_08_08.log'>Все ошибки за день</a><br>
+
+
+09-08-2017 09:17:57 PHP error report
+09.08.2017 09:17<br />
+<br />
+<br />
+09.08.2017 09:17<br />
+Произошла ошибка с кодом <b>2</b> Предупреждение!<br />
+Файл: /var/www/test.ru/include/func1.php(148) : eval()'d code, строка 17.<br />
+<br><br />
+147:         ob_start();<br />
+<br><br />
+148:         eval(' ?&gt;' . $block . "&lt;? ");<br />
+<br><br />
+149:         $block = ob_get_contents();  // Получаем содержимое буфера<br />
+<br />
+16: <br />
+17: <br />
+18: Запрос: /.<br><br />
+SQL-Запрос: SELECT * FROM tovar WHERE 1 ORDER BY price.<br />
+Текст ошибки: <i>Division by zero</i><br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php(148) : eval()\'d code',<br />
+    'line' => 17,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 148,<br />
+    'function' => 'eval',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 117,<br />
+    'function' => 'getBlock',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php(59) : eval()\'d code',<br />
+    'line' => 40,<br />
+    'function' => 'echoBlock',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php',<br />
+    'line' => 59,<br />
+    'function' => 'eval',<br />
+  ),<br />
+)<br />
+<br />
+<br><br />
+<a href='http://test.ru/log/error/5tvi3i13e5s4pre7m507uba160.htm'>Переменные</a><br />
+<br />
+<br />
+url=/<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/func.php',<br />
+    'line' => 481,<br />
+    'function' => 'AddToLog',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php(148) : eval()\'d code',<br />
+    'line' => 17,<br />
+    'function' => 'myErrorHandler',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 148,<br />
+    'function' => 'eval',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/func1.php',<br />
+    'line' => 117,<br />
+    'function' => 'getBlock',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php(59) : eval()\'d code',<br />
+    'line' => 40,<br />
+    'function' => 'echoBlock',<br />
+  ),<br />
+  5 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php',<br />
+    'line' => 59,<br />
+    'function' => 'eval',<br />
+  ),<br />
+).<br><br />
+<br>
+<a href='http://test.ru/log/error/2017_08_09.log'>Все ошибки за день</a><br>
+
+
+10-08-2017 09:15:04 SQL error report
+10.08.2017 09:15<br />
+10.08.2017 09:15<br />
+Невозможно подключение к MySQL: localhost<br />
+info:<br />
+error:<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/class/db.php',<br />
+    'line' => 49,<br />
+    'function' => 'add_sqlerror',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/class/db.php',<br />
+    'line' => 20,<br />
+    'function' => 'Connect',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/func.php',<br />
+    'line' => 25,<br />
+    'args' => <br />
+    array (<br />
+      0 => '/var/www/test.ru/include/common-utf8/class/db.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'function' => '{closure}',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/class/get.php',<br />
+    'line' => 287,<br />
+    'function' => 'spl_autoload_call',<br />
+  ),<br />
+  5 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/func.php',<br />
+    'line' => 120,<br />
+    'function' => '__callStatic',<br />
+    'class' => 'Get',<br />
+    'type' => '::',<br />
+  ),<br />
+  6 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/func.php',<br />
+    'line' => 120,<br />
+    'function' => 'DEBUG',<br />
+    'class' => 'Get',<br />
+    'type' => '::',<br />
+  ),<br />
+  7 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/config.php',<br />
+    'line' => 93,<br />
+    'args' => <br />
+    array (<br />
+      0 => '/var/www/test.ru/include/common-utf8/func.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+  8 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php',<br />
+    'line' => 2,<br />
+    'args' => <br />
+    array (<br />
+      0 => '/var/www/test.ru/include/config.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+)<br />
+<br />
+<br />
+<br />
+url=/<br />
+Стек: array (<br />
+  0 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/class/db.php',<br />
+    'line' => 107,<br />
+    'function' => 'AddToLog',<br />
+  ),<br />
+  1 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/class/db.php',<br />
+    'line' => 49,<br />
+    'function' => 'add_sqlerror',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  2 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/class/db.php',<br />
+    'line' => 20,<br />
+    'function' => 'Connect',<br />
+    'class' => 'DB',<br />
+    'type' => '::',<br />
+  ),<br />
+  3 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/func.php',<br />
+    'line' => 25,<br />
+    'args' => <br />
+    array (<br />
+      0 => '/var/www/test.ru/include/common-utf8/class/db.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+  4 => <br />
+  array (<br />
+    'function' => '{closure}',<br />
+  ),<br />
+  5 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/class/get.php',<br />
+    'line' => 287,<br />
+    'function' => 'spl_autoload_call',<br />
+  ),<br />
+  6 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/func.php',<br />
+    'line' => 120,<br />
+    'function' => '__callStatic',<br />
+    'class' => 'Get',<br />
+    'type' => '::',<br />
+  ),<br />
+  7 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/common-utf8/func.php',<br />
+    'line' => 120,<br />
+    'function' => 'DEBUG',<br />
+    'class' => 'Get',<br />
+    'type' => '::',<br />
+  ),<br />
+  8 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/include/config.php',<br />
+    'line' => 93,<br />
+    'args' => <br />
+    array (<br />
+      0 => '/var/www/test.ru/include/common-utf8/func.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+  9 => <br />
+  array (<br />
+    'file' => '/var/www/test.ru/index.php',<br />
+    'line' => 2,<br />
+    'args' => <br />
+    array (<br />
+      0 => '/var/www/test.ru/include/config.php',<br />
+    ),<br />
+    'function' => 'include_once',<br />
+  ),<br />
+).<br><br />
+<br>
+<a href='http://test.ru/log/error/2017_08_10.log'>Все ошибки за день</a><br>
